@@ -8,9 +8,9 @@ The regex that we will be covering in this document will  allow you to **Match f
 
 The following is the regex for URL Matching:
 
-` /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/ `
+> ` /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/ `
 
-We will break down all components in the following sections. Please feel free to use the link in the table of contents to skip ahead.
+Please feel free to use the link in the table of contents to skip ahead.
 
 ## Table of Contents
 
@@ -28,9 +28,37 @@ We will break down all components in the following sections. Please feel free to
 
 ## Regex Components
 
+Regex can seem complex to the untrained eye. However, in order to better read and understand what the regular expression is trying to accomplish, it is better to look at each component separately.
+
+All regex will need to be wrapped with forward slashes in order to identify them as such.
+
+For the purpose of understanding of how regex is used to match for a URL, let's look at the following components.
+
 ### Anchors
 
+The anchor is a special character, often referred as token, that does not match any other character. 
+
+In the case of our regex, the caret is used to define the beginning of the string or line and the dollar sign to indicaate the end of the line. 
+
+> Caret - **^**
+
+> Dollar Sign - **?**
+
+> ` /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/ `
+
 ### Quantifiers
+
+The Quantifiers "quantify" or specify the number of instances that the character(s) show up within the text. 
+
+In the case of URL matching, the following quantifiers are used:
+
+> **? is used after https to indicate that the s is not required and thus https or http is a possible match**
+
+>**A second ? is used at the end to indicate a forward slash may or may not be present but both are acceptable.**
+
+> **{2,6} indicates that the web extention or top-level domain following the dot (.) may contain from 2 up to 6 characters (ex. .ca or .com, etc).
+
+> ` /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/ `
 
 ### OR Operator
 
