@@ -4,9 +4,13 @@ Regular Expression or Regex are a sequence of symbols, letters, numbers, and oth
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The regex that we will be covering in this document will  allow you to **Match for a URL**. URL matching is a very important part of the web developers toolkit when creating scripts that require validation.
+
+The following is the regex for URL Matching:
 
 ` /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/ `
+
+We will break down all components in the following sections. Please feel free to use the link in the table of contents to skip ahead.
 
 ## Table of Contents
 
@@ -48,4 +52,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Manuel Corral
+GitHub: https://github.com/ecinematic
+Email: ecinematic@yahoo.com
+LinkedIn: https://www.linkedin.com/in/josemcorral/
