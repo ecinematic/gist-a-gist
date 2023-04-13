@@ -1,10 +1,12 @@
-# Title (replace with your title)
+# Just a Gist: URL edition
 
-Introductory paragraph (replace this with your text)
+Regular Expression or Regex are a sequence of symbols, letters, numbers, and other characters that need to be searched and identified from within a bigger set of text, document, or documents.
 
 ## Summary
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+
+` /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/ `
 
 ## Table of Contents
 
