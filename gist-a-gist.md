@@ -133,3 +133,4 @@ And finally, the last grouping categorizes the optional files and directories th
 - GitHub: https://github.com/ecinematic
 - Email: ecinematic@yahoo.com
 - LinkedIn: https://www.linkedin.com/in/josemcorral/
+- GitHub Gist: https://gist.github.com/ecinematic/379b75bc3d7d05ceea9e3f5b0316149d
